@@ -331,6 +331,219 @@ You can use the grep command or egrep command to filter out info for your script
       pdfinfo myfile.pdf | grep -i author
 
 
+---
+
+# Complete Guide to Using ExifTool
+
+ExifTool is one of the most powerful metadata manipulation tools. Here's how to use it effectively:
+
+1. **Basic Installation & Verification**
+
+# Check if installed
+
+    exiftool -ver
+
+# Help menu
+
+    exiftool -h 
+    
+    exiftool --help  
+  
+    man exiftool    
+
+
+2. **Basic Usage Commands**
+   
+View All Metadata (Basic)
+
+
+# View all metadata
+
+    exiftool image.jpg
+
+# View specific file
+
+    exiftool /path/to/file/document.pdf
+
+# View multiple files
+
+    exiftool image1.jpg image2.jpg
+
+    exiftool *.jpg     All JPGs in directory
+
+
+
+# Common Output Formats
+
+
+# Basic view
+
+    exiftool photo.jpg
+
+# Table format (easier to read)
+
+    exiftool -s photo.jpg
+
+# Tab-separated (for scripting)
+
+    exiftool -t photo.jpg
+
+# JSON output
+
+    exiftool -json photo.jpg
+
+# CSV output
+
+    exiftool -csv *.jpg > photos.csv
+
+
+3. **Viewing Specific Information**
+
+Common Tags to Extract
+
+
+# Camera info
+
+    exiftool -Make -Model -Lens photo.jpg
+
+# Date/time info
+
+    exiftool -DateTimeOriginal -CreateDate -ModifyDate photo.jpg
+
+# GPS/location
+
+    exiftool -GPSLatitude -GPSLongitude -GPSAltitude photo.jpg
+
+# Exposure settings
+
+    exiftool -ExposureTime -FNumber -ISO -FocalLength photo.jpg
+
+# File info
+
+    exiftool -FileSize -ImageSize -FileType photo.jpg
+
+
+# Useful Tag Groups
+
+
+# All camera-related tags
+
+    exiftool -exif:all photo.jpg
+
+# Only GPS tags
+
+    exiftool -gps:all photo.jpg
+
+# IPTC tags (photojournalism)
+
+    exiftool -iptc:all photo.jpg
+
+# XMP tags (Adobe metadata)
+
+    exiftool -xmp:all photo.jpg
+
+
+
+4. Advanced Viewing Options
+
+Organized Output
+
+# Group tags by category (-g for groups)
+
+    exiftool -g photo.jpg
+
+    exiftool -g1 photo.jpg  # Top-level groups only
+
+    exiftool -g1 -g2 photo.jpg  # With subgroups
+
+# Show ALL tags (including duplicates)
+
+    exiftool -a photo.jpg
+
+# Show unknown tags
+
+    exiftool -u photo.jpg
+
+# Combined: ALL tags, organized
+
+    exiftool -a -u -g1 photo.jpg > full_report.txt
+
+
+# Editing Metadata
+
+Removing Metadata
+
+
+# Remove ALL metadata
+
+    exiftool -all= photo.jpg  # Creates backup: photo.jpg_original
+
+# Remove specific tags
+
+    exiftool -author= -copyright= photo.jpg
+
+# Remove GPS data only
+
+    exiftool -gps:all= photo.jpg
+
+# Remove all but keep essential (EXIF)
+
+    exiftool -all= --exif:all photo.jpg
+
+
+
+
+
+# Adding/Changing Metadata
+
+
+# Set author/copyright
+
+    exiftool -author="John Doe" -copyright="© 2023" photo.jpg
+
+# Set date/time
+
+    exiftool -datetimeoriginal="2023:12:25 14:30:00" photo.jpg
+
+# Set GPS coordinates
+
+    exiftool -gpslatitude="40.7128" -gpslongitude="-74.0060" photo.jpg
+
+# Add keywords/tags
+
+    exiftool -keywords="vacation,beach,sunset" photo.jpg
+
+
+
+
+# OSINT Investigation Workflow
+
+
+# 1. Initial scan
+
+    exiftool suspicious.jpg
+
+# 2. Deep analysis
+
+    exiftool -a -u -g1 suspicious.jpg > full_analysis.txt
+
+# 3. Extract GPS if present
+
+    exiftool -gpslatitude -gpslongitude suspicious.jpg
+
+# 4. Check for editing software
+
+    exiftool -software -history -historyparameters suspicious.jpg
+
+# 5. Search for other files from same source
+
+    exiftool -if '$model eq "iPhone 13"' -filename *.jpg
+
+
+
+
+
+
 # Conclusion:
 
 I would like to express my gratitude to the numerous mentors and leaders within the community who have generously shared their guidance and expertise, thereby making this compilation possible. This resource will be continuously expanded and refined for both my personal use and the benefit of the OSINT community. I welcome any additional recommendations or suggestions and will promptly address any unintentional omissions in citations or credit.
