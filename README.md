@@ -34,7 +34,72 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://www.duplichecker.com/reverse-image-search.php 
 
-- https://pimeyes.com/en 
+- https://pimeyes.com/en
+
+
+# Image Analysis 
+
+- https://images.google.com/
+- https://tineye.com/
+- https://yandex.com/images/
+- https://github.com/exiftool/exiftool
+- https://fotoforensics.com/
+- https://getghiro.org/
+- https://29a.ch/photo-forensics/#forensic-magnifier
+- https://imageedited.com/
+- https://www.izitru.com/
+- https://www.verexif.com/
+- https://www.pic2map.com/
+- https://jimpl.com/
+- https://hivemoderation.com/ai-generated-content-detection
+- https://contentdetector.ai/
+- microsoft.com/en-gb/bing/visual-search?form=MT016O&cs=1873324239
+- google.com/?olud&zx=1765378352198&no_sw_cr=1
+- https://www.stolencamerafinder.com/
+- https://www.labnol.org/reverse
+- https://infringement.report/api/raider-reverse-image-search/
+- https://www.duplichecker.com/reverse-image-search.php
+
+
+# Data Visualization
+
+- https://www.maltego.com/
+- https://app.osintracker.com/investigations
+- https://gephi.org/
+- https://www.maltego.com/pricing/?utm_source=paterva.com&utm_medium=referral&utm_campaign=301
+- https://www.kali.org/tools/spiderfoot/
+- https://www.palantir.com/platforms/gotham/
+- https://cytoscape.org/
+- https://www.yworks.com/products/yed
+- https://graphcommons.com/
+- https://linkurious.com/
+- https://cambridge-intelligence.com/keylines/
+- https://malfors.com/
+- https://public.tableau.com/app/discover
+- https://app.powerbi.com/
+- https://observablehq.com/
+- https://flourish.studio/index.html
+- https://www.datawrapper.de/
+- https://timeline.knightlab.com/
+- https://www.tiki-toki.com/
+- https://www.timetoast.com/
+- https://www.lucidchart.com/pages
+- https://app.diagrams.net/
+- https://www.mindmeister.com/
+- https://kumu.io/
+- https://www.anaconda.com/download
+- https://neo4j.com/product/bloom/
+- https://www.r-project.org/
+- https://www.graphistry.com/
+- https://www.rawgraphs.io/
+- https://www.chartjs.org/
+- https://d3js.org/
+
+
+
+
+
+
 
 
 # People/Phone/Email:
@@ -57,7 +122,117 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 
 - https://whatismyipaddress.com/breach-check 
 
-- https://breachdirectory.org/ 
+- https://breachdirectory.org/
+
+
+
+# Geolocation
+
+- https://www.google.com/maps
+- https://earth.google.com/static/multi-threaded/versions/10.95.1.3/index.html?
+- https://www.geoguessr.com/
+- https://www.suncalc.org/#/27.6936,-97.5195,3/2025.12.10/16:27/1/3
+- openstreetmap.org
+- https://www.windy.com/
+- https://www.flightradar24.com/
+- https://www.marinetraffic.com/
+- https://www.timeanddate.com/worldclock/
+- https://www.geocaching.com/play
+- https://what3words.com/attracts.quietly.ruffle
+- https://www.wolframalpha.com/
+- https://www.mapquest.com/
+- https://www.gps-coordinates.net/
+- https://www.distance.to/
+- freemaptools.com/radius-around-point.htm
+- https://www.earthdata.nasa.gov/data/tools/worldview
+- https://www.arcgis.com/apps/webappviewer/index.html
+- https://www.arcgis.com/apps/webappviewer/index.html
+
+
+
+
+
+# Social Media Analysis
+
+- https://github.com/sherlock-project/sherlock
+- https://github.com/twintproject/twint
+- https://github.com/Datalux/Osintgram
+- https://namechk.com/
+- https://instantusername.com/
+- https://whatsmyname.app/
+- https://usersearch.org/
+- https://www.hootsuite.com/
+- https://mention.com/en/
+- https://www.brandwatch.com/
+- https://foller.me/
+- https://www.twitonomy.com/
+- https://tinfoleak.com/
+- https://www.hugedomains.com/domain_profile.cfm?d=birdpan.com
+- https://lookup-id.com/
+- https://whopostedwhat.com/
+- https://imginn.com/
+- https://github.com/instaloader/instaloader
+- https://skrapp.io/
+- https://hunter.io/
+- https://osintframework.com/
+- https://www.linkedin.com/sales/ssi
+- https://github.com/laramies/theHarvester
+- https://github.com/jivoi/awesome-osint
+- https://github.com/WebBreacher/WhatsMyName
+- https://ww38.searchmy.bio/
+- https://tgstat.com/
+- https://lullar.com/
+- https://trends.google.com/trends/
+
+
+
+  # Search & Discovery
+
+  - https://www.google.com/advanced_search
+  - https://duckduckgo.com/
+  - https://www.shodan.io/
+  - https://web.archive.org/
+  - https://www.startpage.com/
+  - https://www.bing.com/
+  - https://yandex.com/
+  - https://www.baidu.com/
+  - https://searx.org/
+  - https://www.wolframalpha.com/
+  - https://scholar.google.com/
+  - https://pipl.com/
+  - https://www.spokeo.com/
+  - https://www.whitepages.com/
+  - https://www.deepdyve.com/
+  - https://www.base-search.net/
+  - https://www.refseek.com/
+  - https://www.recordedfuture.com/
+  - https://www.darktrace.com/
+  - https://haveibeenpwned.com/
+  - https://www.dehashed.com/
+  - https://leakcheck.io/
+  - https://www.intelx.io/
+  - https://ghostproject.fr/
+  - https://www.scribd.com/
+  - https://pp.one/
+  - https://www.slideshare.net/
+  - https://www.4shared.com/
+  - https://www.box.com/
+  - https://github.com/search
+  - https://gitlab.com/explore
+  - https://bitbucket.org/
+  - https://searchcode.com/
+  - https://grep.app/
+  - https://archive.ph/
+  - https://www.loc.gov/
+  - https://www.europeana.eu/
+  - https://www.misp-project.org/
+  - https://otx.alienvault.com/
+  - https://threatconnect.com/
+
+
+
+
+
 
 
 
@@ -80,6 +255,43 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://who.is/ 
 
 - https://dnslytics.com/
+- https://dnsdumpster.com/
+- virustotal.com/gui/
+- https://censys.com/
+- https://securitytrails.com/
+- https://mxtoolbox.com/
+- https://dnschecker.org/
+- https://viewdns.info/
+- https://robtex.com/
+- https://www.whatsmydns.net/
+- https://www.shodan.io/
+- https://www.abuseipdb.com/
+- https://ipinfo.io/
+- https://www.maxmind.com/en/geoip-demo
+- https://www.ipvoid.com/
+- https://www.urlvoid.com/
+- https://hybrid-analysis.com/
+- https://otx.alienvault.com/
+- https://crt.sh/
+- https://www.netcraft.com/
+- https://subdomainfinder.c99.nl/
+- https://web.archive.org/
+- https://dnshistory.org/
+- https://whoisology.com/
+- https://hackertarget.com/
+- https://nmap.online/
+- https://builtwith.com/
+- https://www.wappalyzer.com/
+- https://bgp.he.net/
+
+
+
+
+
+
+
+
+
 
 
 # PDF/ Document Metadata Extractors
