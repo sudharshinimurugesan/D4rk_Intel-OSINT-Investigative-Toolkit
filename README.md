@@ -265,8 +265,6 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
 - https://github.com/laramies/theHarvester
   
 - https://github.com/jivoi/awesome-osint
-
-  - https://github.com/WebBreacher/WhatsMyName
     
 - https://ww38.searchmy.bio
   
@@ -288,7 +286,7 @@ A curated toolkit for Open-Source Intelligence (OSINT) investigations. This repo
   
 - https://web.archive.org
   
-- - https://www.startpage.com
+- https://www.startpage.com
     
 - https://www.bing.com
   
