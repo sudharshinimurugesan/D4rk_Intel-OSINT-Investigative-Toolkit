@@ -675,6 +675,8 @@ When initiating research and conducting in-depth investigations based solely on 
 
 - https://cyberdefenders.org/blueteam-ctf-challenges/intel101
 
+- https://www.reddit.com/r/TraceAnObject
+
 
 
 # OSINT LinkedIn Groups
