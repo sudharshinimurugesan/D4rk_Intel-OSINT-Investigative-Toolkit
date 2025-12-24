@@ -1300,9 +1300,48 @@ Removing Metadata
     curl -v https://example.com
 
 
+# Simple way to create a virtual environment in Kali Linux:
 
+## Method 1: Using venv (Built-in Python method)
 
+**Install python3-venv if not already installed**
 
+    sudo apt update
+
+    sudo apt install python3-venv
+
+# Create virtual environment
+
+    python3 -m venv myenv
+
+# Activate it
+
+    source myenv/bin/activate
+
+# To deactivate when done
+
+    deactivate
+    
+
+## Method 2: Using virtualenv
+
+## Install virtualenv
+
+    sudo apt install virtualenv
+
+# Create virtual environment
+
+    virtualenv myenv
+
+# Activate it
+
+    source myenv/bin/activate
+
+# Deactivate when done
+
+    deactivate
+
+    
 # Conclusion:
 
 I would like to express my gratitude to the numerous mentors and leaders within the community who have generously shared their guidance and expertise, thereby making this compilation possible. This resource will be continuously expanded and refined for both my personal use and the benefit of the OSINT community. I welcome any additional recommendations or suggestions and will promptly address any unintentional omissions in citations or credit.
